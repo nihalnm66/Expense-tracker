@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Inputs */
+.form input,
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Main form button */
+form button {
+  width: 100%;
+  background: #3b6eff;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+.switch-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.switch-text a {
+  color: #3b6eff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Dashboard Styles */
+#notes-list {
+  list-style: none;
+  padding: 0;
+}
+
+#notes-list li {
+  background: #e9e9e9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Dashboard buttons */
+#add-note,
+#summarize {
+  background: #3b6eff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: auto;
+}
+
+#notes-list button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#logout {
+  background: red;
+}

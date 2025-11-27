@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Expense tracker</h1>
+
+    <form id="login-form" class="form">
+      <h2>Login</h2>
+
+      <input type="email" id="login-email" placeholder="Email" required>
+      <input type="password" id="login-password" placeholder="Password" required>
+
+      <button type="submit">Login</button>
+
+      <p class="switch-text">
+        Don't have an account? <a href="#" id="go-signup">Sign up</a>
+      </p>
+
+      <p id="login-message" class="message"></p>
+    </form>
+
+    <form id="signup-form" class="form hidden">
+      <h2>Signup</h2>
+
+      <input type="text" id="signup-name" placeholder="Name" required>
+      <input type="email" id="signup-email" placeholder="Email" required>
+      <input type="password" id="signup-password" placeholder="Password" required>
+
+      <button type="submit">Create Account</button>
+
+      <p class="switch-text">
+        Already have an account? <a href="#" id="go-login">Login</a>
+      </p>
+
+      <p id="signup-message" class="message"></p>
+    </form>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
